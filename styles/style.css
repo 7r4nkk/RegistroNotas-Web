@@ -91,3 +91,14 @@ th{
 td{
     color: rgb(0, 0, 0);
 }
+@media (max-width: 767px){
+    .nomostrar-a{
+        display: none;
+    }
+    .nomostrar-b{
+        display: none;
+    }
+    .nomostrar-c{
+        display: none;
+    }
+}
