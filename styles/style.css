@@ -50,6 +50,7 @@ header a{
     padding: 20px 30px;
     margin-top: 10px;
     border-radius: 10px 30px;
+    font-weight: bold;
 }
 h1{
     background-color: rgba(0, 0, 0, 0.6);
@@ -100,5 +101,12 @@ td{
     }
     .nomostrar-c{
         display: none;
+    }
+    h1{
+        font-size: 40px;
+        margin: 15px;
+    }
+    p{
+        text-align: center;
     }
 }
