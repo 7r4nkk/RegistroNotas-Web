@@ -102,13 +102,13 @@ td{
     .nomostrar-c{
         display: none;
     }
-    tbody :nth-child(3){
+    #tablaAlumnos tbody :nth-child(3){
         display: none;
     }
-    tbody :nth-child(4){
+    #tablaAlumnos tbody :nth-child(4){
         display: none;
     }
-    tbody :nth-child(5){
+    #tablaAlumnos tbody :nth-child(5){
         display: none;
     }
 
