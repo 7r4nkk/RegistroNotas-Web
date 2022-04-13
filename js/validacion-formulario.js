@@ -8,6 +8,9 @@ let validar = () => {
         if(inputs_requeridos[i].value == ""){
             inputs_requeridos[i].classList.add('input-error');
             error = true;
+        }if(inputs_requeridos[i].value > 10){
+            inputs_requeridos[i].classList.add('input-error');
+            error = true;
         }else{
             inputs_requeridos[i].classList.remove('input-error')
         }

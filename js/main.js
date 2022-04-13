@@ -38,15 +38,15 @@ function saveAlumno(){
             return;
         }
         sNota = document.querySelector('#notaAlumno').value;
-        if(sNota == ""){
+        if(sNota == "", sNota > 10){
             return;
         }
         sNotab = document.querySelector('#notabAlumno').value;
-        if(sNotab == ""){
+        if(sNotab == "", sNotab > 10){
             return;
         }
         sNotac = document.querySelector('#notacAlumno').value;
-        if(sNotac == ""){
+        if(sNotac == "", sNotac > 10){
             return;
         }
         sNotafinal = ((parseFloat(sNota)+parseFloat(sNotab)+parseFloat(sNotac))/3)
@@ -76,7 +76,6 @@ function drawTablaAlumnos(){
             notabCell.innerHTML = list[i].notab;
             notacCell.innerHTML = list[i].notac;
             notafinalCell.innerHTML = list[i].notafinal;
-
         tbody.appendChild(row);
     }
 }
