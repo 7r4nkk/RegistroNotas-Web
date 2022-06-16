@@ -1,4 +1,5 @@
-Registro de notas es un sitio que desarrolle durante el curso de JavaScript en CoderHouse.
+# Registro de notas
+Un sitio que desarrolle durante el curso de JavaScript en CoderHouse.
 ******************************************************************************************
 El sitio cuenta con 2 vistas; el banner y el registro.
 
